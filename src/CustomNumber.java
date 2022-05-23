@@ -16,8 +16,8 @@ public class CustomNumber {
         System.out.println("The value of number is: "+number);
     }
     public void getMultiplicationTable(){
-        for (int i=number; i>0; i--){
-            System.out.print((i*2)+", " );
+        for (int i=12; i>0; i--){
+            System.out.print((i*number)+", " );
         }
     }
 }
